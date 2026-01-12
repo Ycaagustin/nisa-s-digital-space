@@ -54,11 +54,11 @@ const Skills = () => {
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
           <span className="text-primary font-medium text-sm uppercase tracking-wider mb-2 block">
-            My Skills
+            Keterampilan Saya
           </span>
-          <h2 className="section-title">Tools & Technologies</h2>
+          <h2 className="section-title">Alat & Teknologi</h2>
           <p className="section-subtitle mx-auto">
-            Here are the tools and technologies I use to bring ideas to life
+            Berikut adalah alat dan teknologi yang saya gunakan untuk mewujudkan ide-ide.
           </p>
         </div>
 

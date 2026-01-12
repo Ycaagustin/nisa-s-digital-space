@@ -1,5 +1,5 @@
 import { MapPin, GraduationCap, Heart } from 'lucide-react';
-import profileImage from '@/assets/profile-nisa.jpg';
+import profileImage from '@/assets/profile-nisa.jpeg';
 
 const About = () => {
   return (
@@ -27,21 +27,21 @@ const About = () => {
           {/* Content */}
           <div className="animate-slide-up">
             <span className="text-primary font-medium text-sm uppercase tracking-wider mb-2 block">
-              About Me
+              Tentang Saya
             </span>
             <h2 className="section-title">
-              Get to Know Me Better
+              Mari Kenali Saya Lebih Baik
             </h2>
             
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I am an undergraduate student currently pursuing a Bachelor's degree in Informatics in Bogor. 
-              I am highly adaptable to new environments and enjoy creating motivational content in my spare time.
+              Saya adalah mahasiswa S1 yang saat ini sedang menempuh gelar Sarjana Informatika di Bogor.
+Saya sangat mudah beradaptasi dengan lingkungan baru dan senang membuat konten motivasi di waktu luang saya.
             </p>
             
             <p className="text-muted-foreground leading-relaxed mb-8">
-              I have a strong interest in nature, particularly in learning about plants, animals, and humans. 
-              This curiosity drives me to explore the intersection of technology and the natural world, 
-              seeking innovative ways to create meaningful digital solutions.
+              Saya memiliki minat yang besar terhadap alam, khususnya dalam mempelajari tumbuhan, hewan, dan manusia.
+Rasa ingin tahu ini mendorong saya untuk mengeksplorasi titik temu antara teknologi dan dunia alam,
+mencari cara-cara inovatif untuk menciptakan solusi digital yang bermakna.
             </p>
 
             {/* Info Cards */}
@@ -51,7 +51,7 @@ const About = () => {
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-xs text-muted-foreground">Location</p>
+                  <p className="text-xs text-muted-foreground">Lokasi</p>
                   <p className="text-sm font-medium text-foreground">Bogor, Indonesia</p>
                 </div>
               </div>
@@ -61,8 +61,8 @@ const About = () => {
                   <GraduationCap className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-xs text-muted-foreground">Education</p>
-                  <p className="text-sm font-medium text-foreground">Informatics</p>
+                  <p className="text-xs text-muted-foreground">Pendidikan</p>
+                  <p className="text-sm font-medium text-foreground">Informatika</p>
                 </div>
               </div>
 
@@ -71,8 +71,8 @@ const About = () => {
                   <Heart className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-xs text-muted-foreground">Interests</p>
-                  <p className="text-sm font-medium text-foreground">Nature & Tech</p>
+                  <p className="text-xs text-muted-foreground">Ketertarikan</p>
+                  <p className="text-sm font-medium text-foreground">Alam & Teknologi</p>
                 </div>
               </div>
             </div>

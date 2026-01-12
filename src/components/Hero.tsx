@@ -16,9 +16,8 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-secondary px-4 py-2 rounded-full mb-6 animate-fade-in">
-            <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
             <span className="text-sm font-medium text-secondary-foreground">
-              Available for opportunities
+              Assalamu'alaikum Wr.Wb
             </span>
           </div>
 
@@ -29,13 +28,13 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground font-medium mb-6 animate-slide-up" style={{ animationDelay: '0.1s' }}>
-            IT Student & Creative Enthusiast
+            Mahasiswa IT & Pecinta Alam
           </p>
 
           {/* Description */}
           <p className="text-muted-foreground max-w-xl mb-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            Passionate about technology, nature, and creating meaningful digital experiences.
-            Currently pursuing a Bachelor's degree in Informatics in Bogor.
+            Memiliki minat yang besar pada teknologi, alam, dan menciptakan pengalaman digital yang bermakna.
+Saat ini sedang menempuh gelar Sarjana Informatika di Bogor.
           </p>
 
           {/* CTA Buttons */}
@@ -45,7 +44,7 @@ const Hero = () => {
               className="gap-2 shadow-soft hover:shadow-hover transition-all duration-300"
               onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              View Portfolio
+              Lihat Portfolio
               <ArrowDown size={18} />
             </Button>
             <Button
