@@ -12,37 +12,37 @@ const skills = [
   {
     icon: FileText,
     name: 'Microsoft Office',
-    description: 'Word, Excel, PowerPoint - Proficient in creating professional documents and presentations',
+    description: 'Word, Excel, PowerPoint - Mahir dalam membuat dokumen dan presentasi profesional',
     color: 'from-blue-500 to-blue-600',
   },
   {
     icon: Palette,
     name: 'Canva',
-    description: 'Creating visually appealing graphics, social media content, and presentations',
+    description: 'Membuat grafik, konten media sosial, dan presentasi yang menarik secara visual',
     color: 'from-purple-500 to-pink-500',
   },
   {
     icon: Code,
     name: 'Web Development',
-    description: 'HTML, CSS, JavaScript - Building responsive and modern web applications',
+    description: 'HTML, CSS, JavaScript - Membangun aplikasi web yang responsif dan modern',
     color: 'from-orange-500 to-red-500',
   },
   {
     icon: Terminal,
     name: 'VS Code',
-    description: 'Primary code editor with extensive experience in extensions and customization',
+    description: 'Editor kode utama dengan pengalaman dasar dalam ekstensi dan kustomisasi',
     color: 'from-sky-500 to-blue-600',
   },
   {
     icon: GitBranch,
     name: 'Git & GitHub',
-    description: 'Version control, collaboration, and project management using Git workflows',
+    description: 'Kontrol versi, kolaborasi, dan manajemen proyek menggunakan alur kerja Git',
     color: 'from-gray-700 to-gray-900',
   },
   {
     icon: Layout,
     name: 'UI/UX Design',
-    description: 'Creating user-centered designs with focus on accessibility and usability',
+    description: 'Menciptakan desain yang berpusat pada pengguna dengan fokus pada aksesibilitas dan kegunaan',
     color: 'from-teal-500 to-cyan-500',
   },
 ];

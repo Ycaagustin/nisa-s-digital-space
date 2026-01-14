@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="font-display font-bold text-xl text-foreground">
-            Nisa
+            Nisa<span className="text-primary">Agustin</span>
           </a>
 
           {/* Desktop Navigation */}

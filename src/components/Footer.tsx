@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#home" className="font-display font-bold text-2xl mb-2 block">
-              Nisa<span className="text-primary">.</span>
+              Nisa<span className="text-primary">Agustin</span>
             </a>
             <p className="text-background/60 text-sm">
               © {currentYear} Nisa Agustin. All rights reserved.
@@ -24,8 +24,8 @@ const Footer = () => {
             className="gap-2 border-background/30 text-background hover:bg-background hover:text-foreground transition-colors"
             onClick={() => {
               const link = document.createElement('a');
-              link.href = '/cv-nisa-agustin.pdf';
-              link.download = 'CV-Nisa-Agustin.pdf';
+              link.href = '/CV_NISA_AGUSTIN.pdf';
+              link.download = 'CV_NISA_AGUSTIN.pdf';
               link.click();
             }}
           >

@@ -10,14 +10,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'nisa.agustin@email.com',
-    href: 'mailto:nisa.agustin@email.com',
+    value: 'augusticaa@gmail.com',
+    href: 'mailto:augusticaa@gmail.com',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+62 812 3456 7890',
-    href: 'tel:+6281234567890',
+    value: '+62 857 1074 3524',
+    href: 'tel:+6285710743524',
   },
   {
     icon: MapPin,
@@ -28,9 +28,9 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: Linkedin, href: 'https://linkedin.com/in/nisaagustin', label: 'LinkedIn' },
-  { icon: Github, href: 'https://github.com/nisaagustin', label: 'GitHub' },
-  { icon: Instagram, href: 'https://instagram.com/nisaagustin', label: 'Instagram' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/nisa-agustin-335b2a352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/Ycaagustin', label: 'GitHub' },
+  { icon: Instagram, href: 'https://www.instagram.com/n_ycaaugust?igsh=djFpbmc1bzZ1eWFp', label: 'Instagram' },
 ];
 
 const Contact = () => {
@@ -62,11 +62,11 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
           <span className="text-primary font-medium text-sm uppercase tracking-wider mb-2 block">
-            Get In Touch
+            Hubungi
           </span>
-          <h2 className="section-title">Contact Me</h2>
+          <h2 className="section-title">Kontak Saya</h2>
           <p className="section-subtitle mx-auto">
-            Feel free to reach out for collaborations, opportunities, or just a friendly chat
+            Jangan ragu menghubungi saya jika untuk kolaborasi dan peluang
           </p>
         </div>
 

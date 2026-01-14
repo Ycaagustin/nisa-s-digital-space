@@ -1,28 +1,22 @@
 import { ExternalLink, Github } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import project1 from '@/assets/project-inventory.jpg';
-import project2 from '@/assets/project-library.jpg';
-import project3 from '@/assets/project-dashboard.jpg';
+import project1 from '@/assets/project-inventory.png';
+import project3 from '@/assets/project-dashboard.png';
 
 const projects = [
   {
-    title: 'Inventory Management System',
-    description: 'A comprehensive system for tracking and managing inventory, featuring real-time stock updates, low-stock alerts, and detailed reporting capabilities.',
+    title: 'Sistem Informasi Penjualan',
+    description: 'Ini adalah dashboard dari Toko Niscare untuk memperkenalkan produk-produk skincare dan saat pelanggan ingin membeli mereka akan diarahkan lewat WhatsApp',
     image: project1,
-    tags: ['PHP', 'MySQL', 'Bootstrap'],
+    tags: ['PHP', 'MySQL'],
   },
+ 
   {
-    title: 'Digital Library System',
-    description: 'An online library management platform enabling book cataloging, member registration, borrowing management, and return tracking with fine calculation.',
-    image: project2,
-    tags: ['HTML', 'CSS', 'JavaScript', 'PHP'],
-  },
-  {
-    title: 'Student Information Dashboard',
-    description: 'A centralized dashboard for managing student data, academic records, and generating performance reports with data visualization.',
+    title: 'Sistem Informasi Kasir',
+    description: 'ini untuk mengelola penjualan sebuah toko kelontong, seperti pada stok barang dan laporan penjualan. Dengan menghasilkan Struk belanja dalam bentuk teks yang dikirimkan melalui WhatsApp',
     image: project3,
-    tags: ['React', 'Tailwind CSS', 'Chart.js'],
+    tags: ['Bootstrap', 'PHP Native', 'MySQL'],
   },
 ];
 
@@ -33,11 +27,11 @@ const Portfolio = () => {
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
           <span className="text-primary font-medium text-sm uppercase tracking-wider mb-2 block">
-            My Work
+            Proyek Saya
           </span>
-          <h2 className="section-title">Featured Projects</h2>
+          <h2 className="section-title">Proyek Unggulan</h2>
           <p className="section-subtitle mx-auto">
-            A collection of Information System projects I've worked on during my studies
+            Kumpulan proyek Sistem Informasi yang telah saya kerjakan selama studi saya
           </p>
         </div>
 
@@ -58,14 +52,7 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
                   <div className="flex gap-2">
-                    <Button size="sm" variant="secondary" className="gap-1">
-                      <ExternalLink size={14} />
-                      Demo
-                    </Button>
-                    <Button size="sm" variant="secondary" className="gap-1">
-                      <Github size={14} />
-                      Code
-                    </Button>
+                 
                   </div>
                 </div>
               </div>

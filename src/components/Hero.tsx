@@ -54,8 +54,8 @@ Saat ini sedang menempuh gelar Sarjana Informatika di Bogor.
               onClick={() => {
                 // Trigger CV download
                 const link = document.createElement('a');
-                link.href = '/cv-nisa-agustin.pdf';
-                link.download = 'CV-Nisa-Agustin.pdf';
+                link.href = '/CV_NISA_AGUSTIN.pdf';
+                link.download = 'CV_NISA_AGUSTIN.pdf';
                 link.click();
               }}
             >

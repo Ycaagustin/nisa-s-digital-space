@@ -2,34 +2,26 @@ import { Calendar, Award, BookOpen } from 'lucide-react';
 
 const experiences = [
   {
-    year: '2023 - Present',
-    title: 'Bachelor of Informatics',
-    organization: 'University in Bogor',
-    description: 'Currently pursuing a degree in Informatics, focusing on software development, database management, and information systems.',
+    year: '2024',
+    title: 'Mahasiswa Informatika',
+    organization: 'BSD, Tangerang',
+    description: 'Mengikuti acara Indocomtech yakni pameran teknologi dan gedget yang memamerkan teknologi terkini ',
     icon: BookOpen,
-    type: 'education',
+    type: 'Kegiatan',
   },
   {
     year: '2024',
-    title: 'Web Development Project Lead',
-    organization: 'University Project',
-    description: 'Led a team of 4 students in developing a comprehensive student information dashboard using React and modern web technologies.',
+    title: 'Mahasiswa',
+    organization: 'STIKOM El Rahma',
+    description: 'Mengikuti kegiatan workshop yang diadakan oleh IT-16 yang bertema "Laravel: First Appearance - A Simple First App"',
     icon: Award,
     type: 'project',
   },
   {
-    year: '2024',
-    title: 'Database Systems Project',
-    organization: 'Academic Coursework',
-    description: 'Designed and implemented a digital library management system with MySQL, featuring complex queries and normalized database schema.',
-    icon: Award,
-    type: 'project',
-  },
-  {
-    year: '2023',
-    title: 'Inventory Management System',
-    organization: 'Semester Project',
-    description: 'Developed a full-stack inventory management application as part of Information Systems coursework.',
+    year: '2025',
+    title: 'Mahasiswa',
+    organization: 'Universitas Pakuan',
+    description: 'Mengikuti kegiatan yang diadakan oleh GDG Bogor yang bertema "Safer, Smarter, and Scalable with Cloud and AI"',
     icon: Award,
     type: 'project',
   },
@@ -42,11 +34,11 @@ const Experience = () => {
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
           <span className="text-primary font-medium text-sm uppercase tracking-wider mb-2 block">
-            My Journey
+            Perjalananku
           </span>
-          <h2 className="section-title">Experience & Education</h2>
+          <h2 className="section-title">Perjalanan dan Pengalaman di Bidang Teknologi</h2>
           <p className="section-subtitle mx-auto">
-            My academic journey and project experiences in the field of Information Technology
+            Pengalaman dan keterlibatan saya dalam berbagai kegiatan dan pembelajaran di bidang teknologi
           </p>
         </div>
 
